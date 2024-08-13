@@ -6,9 +6,11 @@
 # from transformers import DistilBertTokenizerFast, DistilBertModel
 # from PyPDF2 import PdfReader
 # import google.generativeai as genai
+#import os
+
 
 # Initialize the Google Generative AI model (Gemini)
-GOOGLE_API_KEY = "AIzaSyCWNDbhBTB6p6WxD1Bqvvz93Dxj8EoVJj8"
+GOOGLE_API_KEY = os.getenv('AIzaSyCWNDbhBTB6p6WxD1Bqvvz93Dxj8EoVJj8')
 genai.configure(api_key=GOOGLE_API_KEY)
 generative_model = genai.GenerativeModel('gemini-1.5-flash')
 
