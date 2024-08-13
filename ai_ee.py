@@ -6,7 +6,7 @@
 # from transformers import DistilBertTokenizerFast, DistilBertModel
 # from PyPDF2 import PdfReader
 # import google.generativeai as genai
-#import os
+# import os
 
 
 # Initialize the Google Generative AI model (Gemini)
