@@ -1,0 +1,6 @@
+ transformers
+ PyPDF2
+ streamlit
+ google-generativeai
+ faiss-cpu  
+
